@@ -1,6 +1,6 @@
 {
   "name": "els-a11y-addon",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ember Language Server a11y extension",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,10 @@
     "aria-query": "^3.0.0"
   },
   "ember-language-server": {
-
+    "entry": "./index",
+    "capabilities": {
+      "completionProvider": true
+    }
   },
   "devDependencies": {
     "jest": "^24.9.0"

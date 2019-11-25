@@ -1,6 +1,6 @@
 {
   "name": "els-a11y-addon",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Ember Language Server a11y extension",
   "main": "index.js",
   "scripts": {

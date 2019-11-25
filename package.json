@@ -1,0 +1,26 @@
+{
+  "name": "els-a11y-addon",
+  "version": "1.0.0",
+  "description": "Ember Language Server a11y extension",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "a11y",
+    "ember",
+    "els",
+    "language-server"
+  ],
+  "author": "Aleksandr Kanunnikov <lifeart92@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "aria-query": "^3.0.0"
+  },
+  "ember-language-server": {
+
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}

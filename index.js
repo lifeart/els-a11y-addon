@@ -20,9 +20,9 @@ module.exports.onComplete = function(_, { focusPath, results, type }) {
     isAttributeValue(focusPath)
   ) {
     let attributeName = focusPath.parent.name;
-    let tag = focusPath.parentPath.parent;
-    if (tag.name in elementRoles && attributeName === "role") {
-      elementRoles[tag.name].forEach(name => {
+    let element = focusPath.parentPath.parent;
+    if (element.tag in elementRoles && attributeName === "role") {
+      elementRoles[element.tag].forEach(name => {
         results.push({
           label: name
         });

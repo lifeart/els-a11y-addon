@@ -23,4 +23,10 @@ Array [
 ]
 `;
 
-exports[`[role] attribute autocomplete should autocomplete role for [button] tag 1`] = `Array []`;
+exports[`[role] attribute autocomplete should autocomplete role for [button] tag 1`] = `
+Array [
+  Object {
+    "label": "button",
+  },
+]
+`;

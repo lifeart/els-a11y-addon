@@ -5,12 +5,17 @@ How to use?
 
 Install this addon as `dev-dependency` inside your ember project.
 
-
+### NPM
 `npm install els-a11y-addon --save-dev`
+
+### Yarn
 `yarn add els-a11y-addon --dev`
 
-Install (Unstable Ember Language Server)[https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-ember-unstable].
+### VSCode
 
-Restart VSCode.
+Install: [Unstable Ember Language Server](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-ember-unstable).
 
-Try autocomplete for `role` attribute inside templates.
+* Restart `VSCode`.
+
+## Usage 
+Try autocomplete for `aria-dropeffect` attribute inside templates.

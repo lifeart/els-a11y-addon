@@ -5,6 +5,14 @@ How to use?
 
 Install this addon as `dev-dependency` inside your ember project.
 
+
+### Features
+
+* `role` attribute autocomplete (depends on tagName)
+* `aria-*` attributes enum values autocomplete
+
+_based on [aria-query](https://github.com/A11yance/aria-query)_
+
 ### NPM
 `npm install els-a11y-addon --save-dev`
 
